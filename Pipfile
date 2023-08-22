@@ -1,0 +1,22 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+flask = "*"
+pypinyin = "*"
+jieba = "*"
+yinglish = "*"
+requests = "*"
+openai = "*"
+urllib3 = "==1.26.6"
+greenlet = "*"
+eventlet = "*"
+gevent = "*"
+gunicorn = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.9"

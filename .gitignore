@@ -1,0 +1,13 @@
+github.token
+global_config.py
+device.json
+*.log
+nohup/
+error/
+logs/
+data/
+go-cqhttp
+Pipfile.lock
+session.token
+config.yml
+.venv/
