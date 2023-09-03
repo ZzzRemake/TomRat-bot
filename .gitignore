@@ -11,6 +11,3 @@ Pipfile.lock
 session.token
 config.yml
 .venv/
-unidbg-fetch-qsign-master/
-qsign/
-Pipfile/
