@@ -26,7 +26,7 @@ def weather_clock(hour, minute):
                 moyuMessage=small_func.get_moyu_image()
                 send_message(moyuMessage, SELF_ID, group_id)
 
-        TIME_CONFIG["weather"]["enable"]=False
+        TIME_CONFIG["enable"]=False
 
 def all_clock():
     """
@@ -39,8 +39,8 @@ def all_clock():
         minute = now_time.tm_min
         if hour == 0 and minute == 0:
             if TIME_CONFIG["enable"]== False:
-                TIME_CONFIG["weather"]["enable"]= True
-        if TIME_CONFIG["weather"]["enable"]:
+                TIME_CONFIG["enable"]= True
+        if TIME_CONFIG["enable"]:
             weather_clock(hour, minute)
 
         time.sleep(10)
